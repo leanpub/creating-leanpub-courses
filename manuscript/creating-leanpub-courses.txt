@@ -511,13 +511,13 @@ Here is an example of a quiz with a 30-minute time limit:
 
 {type: code}
 ```
-{quiz, id: i, time-limit: 0d0h10m}
+{quiz, id: i, time-limit: 0d0h30m}
 
 ? Can cats drink seawater?
 
 ! Yes
 
-</quiz>
+{/quiz}
 ```
 
 ## Use Result
