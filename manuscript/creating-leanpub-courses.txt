@@ -20,7 +20,7 @@ We also want to provide you with the complete source content for this entire cou
 
 Here is a link to the folder with all the source content, structured appropriately:
 
-[#todo]
+[https://github.com/leanpub/creating-leanpub-courses/archive/master.zip](https://github.com/leanpub/creating-leanpub-courses/archive/master.zip)
 
 In the `manuscript` folder for the course, you will find the text files used to write this course. In the `resources` folder inside the `manuscript` folder, you'll find any resources like images or videos that appear in this course.
 
@@ -792,10 +792,6 @@ D) Impossible to know
 
 {/quiz}
 ```
-
-## Question and Answer Key
-
-You can create a question and answer key that can be used for manually grading quizzes. [#todo]
 
 # Sample Courses
 

@@ -2,11 +2,9 @@
 
 # Fun Cat Facts: Quiz #2 
 
-## Some Facts About This Quiz
+This quiz has a time limit of 10 minutes. You are permitted to submit 2 attempts to complete this quiz.
 
-- This quiz has a time limit of 10 minutes.
-- You are permitted to submit 2 attempts to complete this quiz.
-- In this quiz, your grade will be based on the best score you have achieved in a submitted quiz attempt.
+Also, in this quiz, your grade will be based on the best score you have achieved in a submitted quiz attempt.
 
 ? The first cat show was staged in London. In what year did it take place?
 

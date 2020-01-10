@@ -2,7 +2,7 @@
 
 # Fun Cat Facts: Quiz #3
 
-- In this quiz, you will see that each question is worth a different number of points. The questions are worth 10 points in total.
+In this quiz, you will see that each question is worth a different number of points. The questions are worth 10 points in total.
 
 {points: 5}
 ? What is the name of the most popular cat on YouTube?

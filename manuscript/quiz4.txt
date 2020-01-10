@@ -2,9 +2,7 @@
 
 # Fun Cat Facts: Quiz #4
 
-## Some Facts About This Quiz
-
-[#todo]
+This quiz prompts students to give written answers. Check the course manuscript to see how you can do things like set word limits!
 
 {case-sensitive: true}
 ? What is the name of a cat breed that is associated with enjoying water?
