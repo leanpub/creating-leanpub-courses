@@ -1,8 +1,8 @@
-{quiz, id: quiz2, attempts: 2, points: 10, start-at: 9, time-limit: 0d0h10m}
+{quiz, id: quiz2, attempts: 2, points: 10, start-at: 9}
 
 # Fun Cat Facts: Quiz #2 
 
-This quiz has a time limit of 10 minutes. You are permitted to submit 2 attempts to complete this quiz.
+You are permitted to submit two attempts to complete this quiz.
 
 Also, in this quiz, your grade will be based on the best score you have achieved in a submitted quiz attempt.
 

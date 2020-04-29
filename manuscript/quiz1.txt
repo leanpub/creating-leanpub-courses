@@ -1,4 +1,4 @@
-{quiz, id: quiz1, attempts: 3, auto-submit: false, case-sensitive: true, time-limit: 0d1h0m, points: 10, random-choice-order: true, random-question-order: true, show-answers: none, use-result: latest, version: 1, mark-request-url: https://leanpub.com/gJRsQnkXc6Cb}
+{quiz, id: quiz1, attempts: 3, auto-submit: false, case-sensitive: true, points: 10, random-choice-order: true, random-question-order: true, show-answers: none, use-result: latest, version: 1, mark-request-url: https://leanpub.com/gJRsQnkXc6Cb}
 
 # Fun Cat Facts: Quiz #1
 
@@ -14,7 +14,6 @@ Here are some details about how to take this quiz. Please read them carefully as
 
 - Submitting the Quiz: This quiz will not be automatically submitted when you provide your last answer. You'll need to submit the quiz manually, by clicking a button.
 - Case-Sensitive Answers: Unless otherwise indicated, answers to this quiz are case-sensitive. So, be sure to capitalize letters where approrpriate.
-- Time Limit: You must complete this quiz within one day of starting it.
 - Points: This quiz is worth 10 points. Since there are 5 quizzes in this course, each worth 10 points, this quiz is worth 20% of your final grade.
 - Your grade will be calculated based on the latest quiz attempt you have submitted. So, if you score lower on a subsequent attempt, that will lower your overall grade.
 

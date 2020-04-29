@@ -295,7 +295,7 @@ Here is what you would type to embed a locally-stored video in your course:
 
 In your course, manuscript, you can set a number of parameters to quizzes and exercies, and questions and answers.
 
-These parameters include things like time limits, the number of permitted attempts to take a course (so students can try to improve their grades), the points a quiz is worth, and many other things.
+These parameters include things like the number of permitted attempts to take a course (so students can try to improve their grades), the points a quiz is worth, and many other things.
 
 In each case, to make a parameter work, you need to type out the related instruction in your course manuscript.
 
@@ -326,30 +326,6 @@ a) About 10 mph
 b) About 20 mph
 C) About 30 mph
 d) About 40 mph 
-
-{/quiz}
-```
-
-## Auto-Submit
-
-You can set it so a quiz is automatically submitted under various conditions, for example if a time limit expires. By default, students must manually submit a question or quiz by clicking a button.
-
-The default setting is for quizzes and exercises to auto-submit if a time limit expires.
-
-- The instruction for a word limit is `auto-submit:` followed by a space and `true` or `false`.
-
-Here is an example of a quiz with a time limit of one hour but the auto-submit feature turned off:
-
-{type: code}
-```
-{quiz, id: b, time-limit: 0d1h0m, auto-submit: false}
-
-? According to legend, the invention of the pet door (also called a "cat flap" or a "doggy door") has been attributed to which historical figure?
-
-a) Albert Einstein
-b) Aphra Behn
-c) Cleopatra
-d) Isaac Newton
 
 {/quiz}
 ```
@@ -493,29 +469,6 @@ a) 8-9 hours
 b) 10-11 hours
 C) 12-16 hours
 d) 18-20 hours
-
-{/quiz}
-```
-
-## Time Limits
-
-You can set time limits to quizzes and exercises.
-
-When you are setting a time limit, you need to specify the number of days with a number and the letter `d` for "days," a number and the letter `h` for "hours," and a number and the letter `m` for "minutes." 
-
-- The instruction for setting a time limit of a quiz or exercis number is `time-limit:` followed by a space and a sequence of numbers and letters. For example, the following instruction sets the time limit to be 30 minutes:
-
-`time-limit: 0d0h30m`
-
-Here is an example of a quiz with a 30-minute time limit:
-
-{type: code}
-```
-{quiz, id: i, time-limit: 0d0h30m}
-
-? Can cats drink seawater?
-
-! Yes
 
 {/quiz}
 ```
