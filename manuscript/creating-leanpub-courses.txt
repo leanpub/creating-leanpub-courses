@@ -288,8 +288,12 @@ Here is what you would type to embed a locally-stored video in your course:
 
 {type: code}
 ```
-![Short Clip from Local Video File](peter-clip.m4a)
+![Short Clip from Local Video File](peter-clip.mp4)
 ```
+
+This is how it will look like:
+
+![Short Clip from Local Video File](peter-clip.mp4)
 
 # Quiz, Exercise and Question Parameters
 
