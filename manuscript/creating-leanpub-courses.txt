@@ -47,7 +47,7 @@ The basic structure of creating a Leanpub course includes the following:
 
 ##  Course Content
 
-Course content can include text, images, embedded videos and internet links. Your course content can be thought of as the "textbook" part of the course, which is separate from asking questions in exercises and quizzes.
+Course content can include text, images, [embedded videos](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private), and internet links. Your course content can be thought of as the "textbook" part of the course, which is separate from asking questions in exercises and quizzes.
 
 ## Exercises
 
@@ -266,9 +266,7 @@ The `!` indicates that this is content, like an image; the part in between the s
 
 ## Embedding Videos
 
-You can embed videos in Leanpub courses.
-
-There are two types of local video files you can use: MP4 and WebM.
+You can embed [unlisted (and public) YouTube videos](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private) in Leanpub courses.
 
 When you embed a video, you need a URL that points to an image or "poster" in addition to a URL that links to a video file.
 
@@ -280,16 +278,10 @@ Here is what you would type to embed a video from YouTube:
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 ```
 
-Eventually you will be able to embed locally-stored videos in the content for your course, as you'll see with the short clip below ("locally-stored" files are files that you have saved in the `resources` folder for your course).
+Here is a working example, using the code above:
 
-Currently you can't embed locally-stored videos in quizzes, but you can embed one just before a quiz if you want to.
-
-Here is what you would type to embed a locally-stored video in your course:
-
-{type: code}
-```
-![Short Clip from Local Video File](peter-clip.m4a)
-```
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
+![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 # Quiz, Exercise and Question Parameters
 
