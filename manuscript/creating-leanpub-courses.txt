@@ -280,9 +280,6 @@ Here is what you would type to embed a video from YouTube:
 
 Here is a working example, using the code above:
 
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
-![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
-
 # Quiz, Exercise and Question Parameters
 
 In your course, manuscript, you can set a number of parameters to quizzes and exercies, and questions and answers.
