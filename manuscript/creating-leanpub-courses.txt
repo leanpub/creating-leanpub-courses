@@ -738,31 +738,6 @@ D) Impossible to know
 {/quiz}
 ```
 
-# Sample Courses
-
-You can create a sample version of each course that prospective students can try out for free.
-
-To include content in a sample version of a course, at the beginning of the section you want to include, type `{course-sample: true}`, and at the end of the section you want to include, type `{course-sample: false}`.
-
-Here is an example:
-
-{type: code}
-```
-
-This content would not be included in a course sample.
-
-{course-sample: true}
-
-This content would be included in a course sample.
-
-{course-sample: false}
-
-This content would not be included in a course sample.
-
-```
-
-Please note you can do this in multiple places in your manuscript if you choose to do so. The course sample material will be presented in the same order as it is set in your manuscript.
-
 # Course Instructor Material
 
 There are two types of course instructor material you can write that will only be seen in "Instructor" versions of your course.
