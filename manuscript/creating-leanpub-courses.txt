@@ -53,7 +53,7 @@ Course content can include text, images, [embedded videos](http://help.leanpub.c
 
 You can upload an image for a course on the "Upload Course Image" page here:
 
-{type: code}
+{type: code, line-numbers: false}
 ```
 https://leanpub.com/course_admin/leanpub/YOUR_COURSE/settings/image
 ```
