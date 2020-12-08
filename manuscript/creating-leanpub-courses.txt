@@ -49,6 +49,22 @@ The basic structure of creating a Leanpub course includes the following:
 
 Course content can include text, images, [embedded videos](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private), and internet links. Your course content can be thought of as the "textbook" part of the course, which is separate from asking questions in exercises and quizzes.
 
+## Course Image
+
+You can upload an image for a course on the "Upload Course Image" page here:
+
+```
+https://leanpub.com/course_admin/leanpub/YOUR_COURSE/settings/image
+```
+
+...making sure to replace `YOUR_COURSE` with your course's unique web address.
+
+You can also find a link to the "Upload Course Image" page under "Settings" on your course's "Overview" page, which you can find here:
+
+```
+https://leanpub.com/course_admin/leanpub/YOUR_COURSE/settings/image
+```
+
 ## Exercises
 
 In exercises, students are presented with questions to which they can submit answers online. The answers to exercises may also be provided to students before they have tried answering them; this is our version of the classic "the answers are in the back" convention used in printed textbooks.
