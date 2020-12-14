@@ -35,7 +35,7 @@ You can read the relevant section of the Markua specification document [here](ht
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
 {type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
-![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
+![Introducing Markua](https://youtu.be/VOCYL-FNbr0)
 
 ## Feedback
 
@@ -262,8 +262,10 @@ Here is an example of how you include a link in your course:
 
 {type: code}
 ```
-Watch this [video online](https://www.youtube.com/watch?time_continue=1&v=VOCYL-FNbr0) to find out more about Markua.
+Watch this [video online](https://youtu.be/VOCYL-FNbr0?rel=0) to find out more about Markua.
 ```
+
+Please note that the YouTube link you should use is the one that you get when you click the "Share" button on YouTube, and [you may want to add ?rel=0 to the end of the link](https://community.leanpub.com/t/add-rel-0-to-the-youtube-videos-in-courses/2821), to make sure that YouTube selects more relevant videos after someone finishes watching the video.
 
 ## Images
 
