@@ -8,7 +8,7 @@ The intention of this course is to show:
 
 2) How your course will look to students when they are taking it.
 
-In the first part of this course, we provide you with explanations and related examples you can copy and paste into your own course, so that you can then modify these working examples in your own course.
+In the first part of this course, we provide you with explanations and related examples you can copy and paste into your own course, so that you can then modify these working examples to your own course.
 
 For example, you will find examples of multiple choice questions, setting the number of attempts a student can make to submit a quiz, how to set alternative answers (e.g. "Six" or "6"), how to make questions appear in random order, and many other features and options we support.
 
@@ -20,26 +20,26 @@ We also want to provide you with the complete source content for this entire cou
 
 Here is a link to the folder with all the source content, structured appropriately:
 
-[#todo]
+[https://github.com/leanpub/creating-leanpub-courses/archive/master.zip](https://github.com/leanpub/creating-leanpub-courses/archive/master.zip)
 
 In the `manuscript` folder for the course, you will find the text files used to write this course. In the `resources` folder inside the `manuscript` folder, you'll find any resources like images or videos that appear in this course.
 
 ## Writing Courses in Plain Text Using Markua
 
-Leanpub courses are written using Markua, which was created for the purpose of creating books and courses in plain text. You can find Markua manual [here](https://leanpub.com/markua/read).
+Leanpub courses are written using [Markua](http://markua.com), which was created for the purpose of creating books and courses in plain text.
 
 If you're familiar with Markdown, which is used to write content for the web in plain text, you'll recognize a lot about how Markua works.
 
-You can read the relevant section of the Markua specification document, specifically about courses, [here](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises). Please note that the specification document itself is not a manual, and should ideally be referred to only by people with specific technical needs (like someone building an API, or people who are just interested in reading technical specfication documents!).
+You can read the relevant section of the Markua specification document [here](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises). The specification document is not a manual, and should ideally be referred to by people with specific technical needs (like someone building an API).
 
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
 {type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
-![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
+![Introducing Markua](https://youtu.be/VOCYL-FNbr0)
 
 ## Feedback
 
-This course will be updated over time. If you have any suggestions for improvements or requests for additional content, we recommend that you post them on our [Authors Forum](https://community.leanpub.com/c/authors).
+This course will be updated over time. If you have any suggestions for improvements or requests for additional content, please email our team at <hello@leanpub.com>.
 
 # Course Structure
 
@@ -47,7 +47,25 @@ The basic structure of creating a Leanpub course includes the following:
 
 ##  Course Content
 
-Course content can include text, images, YouTube videos and internet links. Your course content can be thought of as the "textbook" part of the course, which is separate from asking questions in exercises and quizzes.
+Course content can include text, images, [embedded videos](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private), and internet links. Your course content can be thought of as the "textbook" part of the course, which is separate from asking questions in exercises and quizzes.
+
+## Course Image
+
+You can upload an image for a course on the "Upload Course Image" page here:
+
+{type: code, line-numbers: false}
+```
+https://leanpub.com/course_admin/leanpub/YOUR_COURSE/settings/image
+```
+
+...making sure to replace `YOUR_COURSE` with your course's unique web address.
+
+You can also find a link to the "Upload Course Image" page under "Settings" on your course's "Overview" page, which you can find here:
+
+{type: code}
+```
+https://leanpub.com/course_admin/leanpub/YOUR_COURSE/settings/image
+```
 
 ## Exercises
 
@@ -59,17 +77,25 @@ In quizzes, students are presented with questions to which they can submit answe
 
 ## Grades
 
-Grades are calculated as a result of two factors. The first factor is, did the student provide the right or the wrong answer? Once this is determined, then a correct answer to a question is multiplied by the number of points you have assigned to the question (by default, all questions are assumed to have the same value). Using this formula, a final grade is calculated for each student when they complete a course.
+Grades are calculated as a result of two factors. The first factor is, did the student provide the right or the wrong answer? Once this is determined, than a correct answer to a question is multiplied by the number of points you have assigned to the question (by default, all questions are assumed to have the same value). Using this formula, a final grade is calculated for each student when they complete a course.
 
 ## Certificates
 
 Leanpub course certificates are digital images we automatically deliver to a student when they pass a course. A certificate can include things like a logo and a signature that you provide yourself.
 
-Also, you can give names to different outcomes that can be presented on your course's certificates. For example, you can say that if a student passes with a grade greater than 50%, their digital certificate will indicate "Passed," whereas if they passed with a grade of greater than 85%, their digital certificate will indicate "Honors." 
-
 ## Course Book Files
 
 Whenever you create a Leanpub course, you are also creating ebook versions of the course in PDF, EPUB and MOBI formats. While students can't actually take quizzes or exercises in these ebooks, they can read the course content.
+
+## Instructor-Only Book Files
+
+When you create a Leanpub course, you can also create an Instructor-only version of the course book files.  This is useful for presenting instructors with information they need, but students should not see.
+
+## Instructor-Only Online Course
+
+When you create a Leanpub course, you an also create an Instructor-only online version of the course. This is useful for presenting instructors with information they need, but students should not see.
+
+Also, you can give names to different outcomes that can be presented on your course's certificates. For example, you can say that if a student passes with a grade greater than 50%, their digital certificate will indicate "Passed," whereas if they passed with a grade of greater than 85%, their digital certificate will indicate "Honors." 
 
 # Types of Questions and Answers
 
@@ -109,8 +135,6 @@ C) Behemoth
 d) Ed
 ```
 
-In this case, the correct answer is C).
-
 ## Questions with Short Typed Answers
 
 Short typed answers allow students to type their answers, rather than select from a set of choices.
@@ -131,7 +155,7 @@ Lengthy written answers do not have specific answers and therefore they are not 
 
 # Creating A Simple Quiz or Exercise
 
-Leanpub courses are written in plain text, using the [Markua](https://leanpub.com/markua/read) markup syntax.
+Leanpub courses are written in plain text.
 
 This means that in your course manuscript you will type out all the questions and answers as you might expect, but you will also put them in between course-related instructions that you also type.
 
@@ -199,15 +223,13 @@ d) 8
 
 In this section we set out some examples of the kind of content you can include in your Leanpub course.
 
-Essentially, you can include all the content supported by [Markua](https://leanpub.com/markua/read), the plain text syntax we use to generate both books and courses.
+Essentially, you can include all the content supported by Markua, the plain text syntax we use to generate both books and courses.
 
 ## Chapter Headings
 
 In your course content, you create chapter headings by typing `#` followed by a space at the beginning of a line.
 
-Each separate chapter will appear as its own section in the menu to the left.
-
-You can also create sub-sections by typing multiple `#` followed by a space at the beginning of a line.
+You can create sub-sections by typing multiple `#` followed by a space at the beginning of a line.
 
 Here is an example of a chapter heading followed by a sub-heading:
 
@@ -240,12 +262,14 @@ Here is an example of how you include a link in your course:
 
 {type: code}
 ```
-Watch this [video online](https://www.youtube.com/watch?time_continue=1&v=VOCYL-FNbr0) to find out more about Markua.
+Watch this [video online](https://youtu.be/VOCYL-FNbr0?rel=0) to find out more about Markua.
 ```
+
+Please note that the YouTube link you should use is the one that you get when you click the "Share" button on YouTube, and [you may want to add ?rel=0 to the end of the link](https://community.leanpub.com/t/add-rel-0-to-the-youtube-videos-in-courses/2821), to make sure that YouTube selects more relevant videos after someone finishes watching the video.
 
 ## Images
 
-You can include images in a course just like you include images in a Leanpub book.
+You can include images in a course just like you include images in a book.
 
 Here is an image of a cat named Marmalade and a dog named Tangerine:
 
@@ -262,7 +286,7 @@ The `!` indicates that this is content, like an image; the part in between the s
 
 ## Embedding Videos
 
-You can embed videos in Leanpub courses.
+You can embed [unlisted (and public) YouTube videos](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private) in Leanpub courses.
 
 When you embed a video, you need a URL that points to an image or "poster" in addition to a URL that links to a video file.
 
@@ -274,13 +298,16 @@ Here is what you would type to embed a video from YouTube:
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 ```
 
-The YouTube videos you include in your course can be "unlisted" on YouTube. To find out a bit more about this, please see [this article](http://help.leanpub.com/en/articles/1788196-how-do-i-include-videos-in-my-course-what-about-security-can-these-videos-be-private) from our Help Center.
+Here is a working example, using the code above:
+
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
+![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 # Quiz, Exercise and Question Parameters
 
 In your course, manuscript, you can set a number of parameters to quizzes and exercies, and questions and answers.
 
-These parameters include things like time limits, the number of permitted attempts to take a course (so students can try to improve their grades), the points a quiz is worth, and many other things.
+These parameters include things like the number of permitted attempts to take a course (so students can try to improve their grades), the points a quiz is worth, and many other things.
 
 In each case, to make a parameter work, you need to type out the related instruction in your course manuscript.
 
@@ -291,7 +318,7 @@ In the next section of this course, you will find a list of all the parameters a
 
 # Quiz & Exercise Parameters
 
-## Number of Attempts [Test]
+## Number of Attempts
 
 You can set the number of attempts a student is permitted to make to complete a quiz.
 
@@ -311,32 +338,6 @@ a) About 10 mph
 b) About 20 mph
 C) About 30 mph
 d) About 40 mph 
-
-{/quiz}
-```
-
-[test text]
-
-## Auto-Submit
-
-You can set it so a quiz is automatically submitted under various conditions, for example if a time limit expires. By default, students must manually submit a question or quiz by clicking a button.
-
-The default setting is for quizzes and exercises to auto-submit if a time limit expires.
-
-- The instruction for a word limit is `auto-submit:` followed by a space and `true` or `false`.
-
-Here is an example of a quiz with a time limit of one hour but the auto-submit feature turned off:
-
-{type: code}
-```
-{quiz, id: b, time-limit: 0d1h0m, auto-submit: false}
-
-? According to legend, the invention of the pet door (also called a "cat flap" or a "doggy door") has been attributed to which historical figure?
-
-a) Albert Einstein
-b) Aphra Behn
-c) Cleopatra
-d) Isaac Newton
 
 {/quiz}
 ```
@@ -482,29 +483,6 @@ C) 12-16 hours
 d) 18-20 hours
 
 {/quiz}
-```
-
-## Time Limits
-
-You can set time limits to quizzes and exercises.
-
-When you are setting a time limit, you need to specify the number of days with a number and the letter `d` for "days," a number and the letter `h` for "hours," and a number and the letter `m` for "minutes." 
-
-- The instruction for setting a time limit of a quiz or exercis number is `time-limit:` followed by a space and a sequence of numbers and letters. For example, the following instruction sets the time limit to be 30 minutes:
-
-`time-limit: 0d0h30m`
-
-Here is an example of a quiz with a 30-minute time limit:
-
-{type: code}
-```
-{quiz, id: i, time-limit: 0d0h10m}
-
-? Can cats drink seawater?
-
-! Yes
-
-</quiz>
 ```
 
 ## Use Result
@@ -779,35 +757,6 @@ D) Impossible to know
 
 {/quiz}
 ```
-
-## Question and Answer Key
-
-You can create a question and answer key that can be used for manually grading quizzes. [#todo]
-
-# Sample Courses
-
-You can create a sample version of each course that prospective students can try out for free.
-
-To include content in a sample version of a course, at the beginning of the section you want to include, type `{course-sample: true}`, and at the end of the section you want to include, type `{course-sample: false}`.
-
-Here is an example:
-
-{type: code}
-```
-
-This content would not be included in a course sample.
-
-{course-sample: true}
-
-This content would be included in a course sample.
-
-{course-sample: false}
-
-This content would not be included in a course sample.
-
-```
-
-Please note you can do this in multiple places in your manuscript if you choose to do so. The course sample material will be presented in the same order as it is set in your manuscript.
 
 # Course Instructor Material
 
