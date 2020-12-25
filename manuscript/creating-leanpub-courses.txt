@@ -8,7 +8,7 @@ The intention of this course is to show:
 
 2) How your course will look to students when they are taking it.
 
-In the first part of this course, we provide you with explanations and related examples ou can copy and paste into your own course, so that you can then modify these working examples to your own course.
+In the first part of this course, we provide you with explanations and related examples you can copy and paste into your own course, so that you can then modify these working examples to your own course.
 
 For example, you will find examples of multiple choice questions, setting the number of attempts a student can make to submit a quiz, how to set alternative answers (e.g. "Six" or "6"), how to make questions appear in random order, and many other features and options we support.
 
