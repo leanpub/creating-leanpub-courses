@@ -780,6 +780,30 @@ D) Impossible to know
 {/quiz}
 ```
 
+# Global or Default Parameters:
+
+You can set default settings at the beginning of a course text file, including for quiz attempts, like this:
+
+```
+{
+course-attempts: 1
+default-exercise-show-answers: all
+default-quiz-attempts: 1
+default-quiz-auto-submit: true
+default-quiz-show-answers: incorrect
+default-quiz-use-result: best
+default-random-choice-order: false
+default-random-question-order: false
+}
+
+# Introduction
+
+Thank you for creating a new course on Leanpub. You can get started now by deleting this default content and writing your own.
+
+```
+
+We include that example in the default material for every new course that is created.
+
 # Notes to Course Creators and Instructors
 
 In your manuscript, there are a few ways you can leave notes for other people, that you do not want people to see.
