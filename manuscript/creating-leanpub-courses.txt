@@ -780,7 +780,7 @@ D) Impossible to know
 {/quiz}
 ```
 
-# Global or Default Parameters:
+# Global or Default Parameters
 
 You can set default settings at the beginning of a course text file, including for quiz attempts, like this:
 
