@@ -32,9 +32,19 @@ If you're familiar with Markdown, which is used to write content for the web in 
 
 You can read the relevant section of the Markua specification document, specifically about courses, [here](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises). Please note that the specification document itself is not a manual, and should ideally be referred to only by people with specific technical needs (like someone building an API, or people who are just interested in reading technical specfication documents!).
 
+VIDEO TEST 1
+
+{type: video, align: middle, height: 100%}
+![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
+
+VIDEO TEST 2
+
+{type: video, align: middle, height: 100%}
+![Tarzan](https://www.youtube.com/watch?v=ZFL0REtkocY&ab_channel=JackBauer137)
+
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle, height: 70.5%}
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle, height: 100%}
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 ## Feedback
