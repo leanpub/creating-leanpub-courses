@@ -34,7 +34,7 @@ You can read the relevant section of the Markua specification document, specific
 
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle, width: 100%}
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle, height: 70.5%}
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 ## Feedback
