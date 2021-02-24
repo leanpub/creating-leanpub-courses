@@ -20,7 +20,7 @@ We also want to provide you with the complete source content for this entire cou
 
 Here is a link to the folder with all the source content, structured appropriately:
 
-[#todo]
+[https://github.com/leanpub/creating-leanpub-courses/archive/master.zip](https://github.com/leanpub/creating-leanpub-courses/archive/master.zip)
 
 In the `manuscript` folder for the course, you will find the text files used to write this course. In the `resources` folder inside the `manuscript` folder, you'll find any resources like images or videos that appear in this course.
 
@@ -34,7 +34,7 @@ You can read the relevant section of the Markua specification document, specific
 
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle}
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 ## Feedback
