@@ -32,20 +32,9 @@ If you're familiar with Markdown, which is used to write content for the web in 
 
 You can read the relevant section of the Markua specification document, specifically about courses, [here](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises). Please note that the specification document itself is not a manual, and should ideally be referred to only by people with specific technical needs (like someone building an API, or people who are just interested in reading technical specfication documents!).
 
-VIDEO TEST 1
-
-{type: video, height: 100%}
-![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
-
-VIDEO TEST 2
-
-{type: video, height: "100%"}
-![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
-
-
 Here is a video with Peter explaining Markua, if you're interested in learning the back story:
 
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle, height: 100%}
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle}
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 
 ## Feedback
@@ -275,13 +264,13 @@ The `!` indicates that this is content, like an image; the part in between the s
 
 You can embed videos in Leanpub courses.
 
-When you embed a video, you need a URL that points to an image or "poster" in addition to a URL that links to a video file.
+When you embed a video, you can add a URL that points to an image or "poster" in addition to a URL that links to a video file. If you do not set a poster, Leanpub will use a known algorithm for the location of the YouTube poster.
 
 Here is what you would type to embed a video from YouTube:
 
 {type: code}
 ```
-{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg"}
+{type: video, poster: "http://img.youtube.com/vi/VOCYL-FNbr0/mqdefault.jpg", align: middle}
 ![Introducing Markua](https://www.youtube.com/watch?t=105&v=VOCYL-FNbr0)
 ```
 
