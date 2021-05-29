@@ -36,7 +36,7 @@ c) 7
 d) 8
 
 {attempts: 1, case-sensitive: false}
-? Name one of the animals in the image of the cat and dog that is presented in the couse. Unlike in the rest of this quiz, in this question you are only permitted **1 attempt** to answer the question correctly. Please not the answer for this question is not case-sensitive.
+? Name one of the animals in the image of the cat and dog that is presented in the course. Unlike in the rest of this quiz, in this question you are only permitted **1 attempt** to answer the question correctly. Please not the answer for this question is not case-sensitive.
 
 ! Marmalade ; Tangerine
 
